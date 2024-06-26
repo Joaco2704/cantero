@@ -1,90 +1,4 @@
-/*//Registro
-import { StatusBar } from 'expo-status-bar';
-import { Pressable, StyleSheet, Text, View,} from 'react-native';
-import Boton from "../prueba/componentes/boton";
-import Input from "../prueba/componentes/input";
-
-export default function App() {
-  return (
-    
-    <View style={styles.container}>      
-          <View style={styles.caja}>
-          <Text>{"\n"}</Text>
-          <Text>{"\n"}</Text>
-          <Text style={styles.titulo}>Bienvenidos</Text>
-          <Text>{"\n"}</Text>
-          <Text style={styles.cuenta}>Datos personales</Text>
-          <Text>{"\n"}</Text>
-          <Text style={styles.letra}>Nombre completo</Text>
-          <Input/>
-          <Text style={styles.letra}>Número de telefono</Text>
-          <Input/>
-          <Text style={styles.letra}>Email</Text>
-          <Input/>
-          <Text style={styles.letra}>Contraseña</Text>
-          <Input/>
-          <Boton/>
-          </View >
-    </View >
-  );
-}
-
-const styles = StyleSheet.create({
-  
-  container: {
-    flex: 1,
-    backgroundColor: '#841584',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20,
-    fontFamily:'Arial',
-    
-  },
-  caja:{
-    backgroundColor: "#fff",
-    borderRadius: 15,
-    flex: 1,
-    width: 500,
-    height: 1000,
-    marginLeft: 700,
-    padding: 10,
-    margin: 10,
-    fontFamily: 'Arial',
-  },
-  titulo:{
-    marginLeft: 150,
-    fontFamily: 'Arial',
-    fontSize: 35,
-    color: 'orange',
-  },
-  cuenta:{
-    marginLeft: 170,
-    fontSize: 17,
-    fontWeight: 650,
-  },
-
-  letra:{
-    fontWeight: 580,
-    marginLeft: 10,
-  }, 
-  
-
-      <TextInput style={styles.input} placeholder="Escribe aqui" />
-
-
- <Text style={styles.title}>Registro</Text>
-      <Pressable style={styles.link} onPress={() => navigation.navigate('Login')}>
-        <Text>Volver a Login</Text>
-      </Pressable>
-
-
-      <Text style={styles.title}>Registro</Text>
-});
-*/
-
-
-// RegistroScreen.js
-
+//Registro
 import React from 'react';
 import { StyleSheet, Text, View, Pressable } from 'react-native';
 import Input from '../componentes/input'
@@ -102,7 +16,6 @@ export default function PantallaRegistro({ navigation }) {
       <Text>{"\n"}</Text>
       <Text style={styles.letra}>Nombre completo</Text>
       <Input/>
-      <Text>{"\n"}</Text>
       <Text style={styles.letra}>Número de telefono</Text>
       <Input/>
       <Text style={styles.letra}>Email</Text>
